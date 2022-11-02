@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  <title>Project 2</title>
+
+  <!--<script src="https://greggman.github.io/webgl-lint/webgl-lint.js" crossorigin></script>-->
+  <script type="text/javascript" src="./WebGL/Common/webgl-utils.js"></script>
+  <script type="text/javascript" src="./WebGL/Common/MV.js"></script>
+   
+  <!-- Run my example script -->
+  <script type="text/javascript" src="Project2.js"></script>
+</head>
+
+<body>
+    <h1>Project 2: Rotating 3D Shapes</h1>
+    <canvas id="gl-canvas" width="512" height="512" style="border:1px solid #5c5c5c;">
+      Oops ... your browser doesn't support the HTML5 canvas element
+    </canvas>
+    <br><br>
+    
+    Rotate X:
+    <div class="slider">
+        <input type="range" min="-2" max="2" value="0" step=".05" id="slideRotX">
+    </div>
+    Rotate Y:
+    <div class="slider">
+        <input type="range" min="-2" max="2" value="0" step=".05" id="slideRotY">
+    </div>
+    Rotate Z:
+    <div class="slider">
+        <input type="range" min="-2" max="2" value="0" step=".05" id="slideRotZ">
+    </div>
+
+</body>
+</html>
